@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ExpandableListViewDemo</string>
+    <string name="fill_blank">填空题</string>
+    <string name="show_content">提交</string>
 </resources>

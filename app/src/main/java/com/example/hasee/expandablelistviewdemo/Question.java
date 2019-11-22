@@ -15,6 +15,12 @@ public class Question {
     public int selectedAnswer;//用来保存用户选择的答案
 
 
+    public String index;
+    public int index_length;
+    public String answer1;
+    public int answer_length;
+
+
 //    public static final String TABLE_NAME="contents";//目录表
 
 }

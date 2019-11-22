@@ -59,5 +59,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mBtnFillBlank=findViewById(R.id.btn_fillblank);
+        mBtnFillBlank.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,FillBlankContentActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

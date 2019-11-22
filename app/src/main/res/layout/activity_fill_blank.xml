@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.example.hasee.expandablelistviewdemo.FillBlankView
+        android:id="@+id/fbv_content"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:textSize="20sp" />
+
+
+        <TextView
+            android:visibility="visible"
+            android:layout_margin="20dp"
+            android:layout_weight="3"
+            android:id="@+id/tv_result"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:background="@color/colorAccent"
+            />
+
+
+
+
+    <Button
+        android:visibility="visible"
+        android:id="@+id/btn_show_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/show_content"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:visibility="visible"
+            android:layout_margin="10dp"
+            android:background="@color/colorAccent"
+            android:layout_weight="1"
+            android:id="@+id/btn_previous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:text="上一题"/>
+
+        <Button
+            android:visibility="visible"
+            android:layout_margin="10dp"
+            android:background="@color/colorAccent"
+            android:layout_weight="1"
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:text="下一题"/>
+    </LinearLayout>
+
+</LinearLayout>
