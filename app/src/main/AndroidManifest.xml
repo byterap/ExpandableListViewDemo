@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FillBlankContentActivity"/>
-        <activity android:name=".FillBlankActivity"/>
-        <activity android:name=".SingleChoiceContentActivity"></activity>
+        <activity android:name=".BrowseNewsActivity"/>
+        <activity android:name=".ImgTextFixActivity"></activity>
+        <activity android:name=".FillBlankContentActivity" />
+        <activity android:name=".FillBlankActivity" />
+        <activity android:name=".SingleChoiceContentActivity" />
         <activity android:name=".SingleChoiceActivity" />
         <activity android:name=".FromActivity" />
         <activity android:name=".MainActivity">
@@ -22,5 +24,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

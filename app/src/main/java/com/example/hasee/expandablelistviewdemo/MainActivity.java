@@ -15,6 +15,7 @@ import java.io.OutputStream;
 public class MainActivity extends AppCompatActivity {
     private Button mBtnSingleChoice;
     private Button mBtnFillBlank;
+    private Button mBtnImgTextFix;
 
 
     @Override
@@ -64,6 +65,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity.this,FillBlankContentActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mBtnImgTextFix=findViewById(R.id.btn_imgtextfix);
+        mBtnImgTextFix.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,ImgTextFixActivity.class);
                 startActivity(intent);
             }
         });
